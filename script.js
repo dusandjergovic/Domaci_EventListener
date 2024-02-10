@@ -6,7 +6,7 @@ let pitanja = [
 ];
 
 document.querySelector("#btn").addEventListener('click', function() {
-    
+
     let randomPitanje = pitanja[Math.floor(Math.random() * pitanja.length)];
     let odgovor = prompt(randomPitanje);
 
@@ -50,7 +50,7 @@ document.querySelector("#btn").addEventListener('click', function() {
     //         console.log('Nepoznato pitanje.');
     // }
     
-    
+    //
 });
 
     
